@@ -8,26 +8,36 @@
 
 <body>
 <h1> NoMORE</h1> 
-<a href "about.html"> About</a>
-<a href "calendar.html"> Calendar</a>
-<a href "userinformation.html"> User Information</a>
-<a href "hungry.html"> Hungry</a>
-<a href "calm.html"> Calm</a>
-<a href "energetic.html"> Energetic</a>
-<a href "lazy.html"> Lazy</a>
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Mood</span></a>
+      <ul>
+         <li><a href='hungry.html'><span>Hungry</span></a></li>
+         <li class='last'><a href='energetic.html'><span>Energetic </span></a></li>
+         <li class='last'><a href='calm.html'><span>Calm </span></a></li>
+         <li class='last'><a href='lazy.html'><span>Lazy</span></a></li>
+         
+      </ul>
+   </li>
+   <li class='active'><a href='about.html'><span>About</span></a></li>
+   <li class='active last'><a href='userinformation.html'><span>User Information</span></a></li>
+</ul>
+</div>
 
 <br>
-<img src="root/img/elichristman.png"width="750px" height="480px"/>
+<img src="img/elichristman.png"width="750px" height="480px"/>
 </br>
 
 <h2> HOW ARE YOU FEELING TODAY?</h2>
 
-<button type="hungry.html"> HUNGRY</button> 
-<button type="calm.html"> CALM</button> 
-<br></br>
-<button type= "lazy.html"> LAZY</button> 
-<button type="energetic.html"> ENERGETIC</button> 
+<button id="hungry" type="hungry.html"> HUNGRY</button>
+<button type="calm.html"> CALM</button> 		
+<button type= "lazy.html"> LAZY</button>
+<button type="energetic.html"> ENERGETIC</button>	
 
 
 </body>
 </html>
+
