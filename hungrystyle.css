@@ -1,33 +1,31 @@
-  
-#title{ font-family: arial;
-	font-size: 40px;
-	color: #ffffff;
-	background-color: #14CEC8; 
-	text-align:right;
-	margin-left:auto;
-  margin-right:auto;
-  width:800px;
-  padding: 20px;
+p{font-family:arial;
+  font-size: 14px;
+  color:black;
+  width:525px;
+}
+
+h1{
+  font-family:arial;
+  font-size: 36px;
+  color:black; 
   margin-top: 0px;
-  margin-bottom: 0px;
-  position: relative;
-  top:-20px;
+  margin-bottom:0px;
+}
+
+#subtitle{
+  font-family:arial;
+  font-size: 22px;
 }
 
 button{font-family: arial; 
 	font-size: 16px; 
 	color:#ffffff;
 	background-color: #F45A55;
-	padding: 20px;
 	vertical-align: center; 
   margin-top: 0px;
   margin-bottom:0px;
   position: relative;
   top:-5px;
-}
-
-#hungry{
-margin-left:275px;
 }
 
 #content {
@@ -40,8 +38,17 @@ margin-left:275px;
 }
 
 #mypic {
-  margin-right: auto;
-  margin-left: 120px;
+  margin-left:500px;
+  position:relative;
+  top:50px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 
