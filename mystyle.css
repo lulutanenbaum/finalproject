@@ -26,6 +26,10 @@ button{font-family: arial;
   top:-5px;
 }
 
+a{
+  color:white;
+}
+
 #hungry{
 margin-left:275px;
 }
@@ -325,6 +329,9 @@ margin-left:275px;
     border-color: #fff;
   }
 }
+
+
+
 
 
 	

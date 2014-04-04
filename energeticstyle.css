@@ -34,7 +34,7 @@ button{font-family: arial;
 
 #content {
   background-color: white;
-  width:1000px;
+  width:600px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0px;
@@ -42,7 +42,8 @@ button{font-family: arial;
 }
 
 #mypic{
-  margin-left:-350px;
+  margin-left:-70px;
+  margin-right:auto;
 }
 
 ////////////////////////////////////////////////////////////////////
