@@ -1,48 +1,31 @@
-  
-#title{ font-family: arial;
-	font-size: 40px;
-	color: #ffffff;
-	background-color: #14CEC8; 
-	text-align:right;
-	margin-left:auto;
+p{font-family:arial;
+  font-size: 14px;
+  color:black;
+  vertical-align: center; 
+  margin-left: 125px; 
+  margin-right:125px;
+}
+
+h1{
+  font-family:arial;
+  font-size: 36px;
+  color:white; 
+  background-color:#008985; 
+  margin-top: 0px;
+  margin-left: 125px;
   margin-right:auto;
-  width:800px;
-  padding: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: relative;
-  top:-20px;
+  width:500px;
+  padding:20px;
+  padding-top:40px;
 }
 
-button{font-family: arial; 
-	font-size: 16px; 
-	color:#ffffff;
-	background-color: #F45A55;
-	padding: 20px;
-  margin-top: 0px;
-  margin-bottom:0px;
-  position: relative;
-  top:-5px;
-}
-
-a{
-  color:white;
-}
-
-#slideshow{
-  margin-left: 120px; 
-  margin-right: auto; 
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#happy{
-margin-left:315px;
+#subtitle{
+  font-size: 20px;
 }
 
 #content {
   background-color: white;
-  width:1000px;
+  width:800px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0px;
@@ -50,6 +33,29 @@ margin-left:315px;
   padding-bottom:20px;
 }
 
+#line{
+  padding-left:125px;
+}
+
+#mypic{
+  margin-left:125px;
+}
+
+#mypic2{
+  margin-left:170px;
+}
+
+button{font-family: arial; 
+  font-size: 16px; 
+  color:#ffffff;
+  background-color: #F45A55;
+  padding: 20px;
+  margin-left:500px;
+  margin-right:auto;
+  margin-top: 0px;
+  margin-bottom:0px;
+  position: center; 
+}
 
 ////////////////////////////////////////////////////////////////////
 #cssmenu {
@@ -332,7 +338,3 @@ margin-left:315px;
   }
 }
 
-
-
-
-	

@@ -4,11 +4,16 @@ p{font-family:arial;
   width:525px;
 }
 
+#source{
+  font-size:10px;
+  margin-left:90px;
+}
+
 h1{
   font-family:arial;
   font-size: 36px;
   color:black; 
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom:0px;
 }
 
@@ -35,11 +40,13 @@ button{font-family: arial;
   margin-left: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom:20px;
+  padding-left: 25px;
 }
 
 #mypic{
-  margin-left:-70px; 
-  margin-right: auto;
+  margin-left:90px;
+  margin-right:auto;
 }
 
 ////////////////////////////////////////////////////////////////////

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>NoMORE</title>
+<title>MoodSWING</title>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
@@ -16,31 +16,30 @@ body {
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href='index.html'><span>NoMORE</span></a></li>
+   <li class='active'><a href='index.html'><span>MoodSWING</span></a></li>
+   <li class='active'><a href='about.html'><span>About</span></a></li>
    <li class='has-sub'><a href='#'><span>Mood</span></a>
       <ul>
-         <li><a href='hungry.html'><span>Hungry</span></a></li>
-         <li class='last'><a href='energetic.html'><span>Energetic </span></a></li>
-         <li class='last'><a href='calm.html'><span>Calm </span></a></li>
-         <li class='last'><a href='lazy.html'><span>Lazy</span></a></li>
-         
+         <li><a href='happy.html'><span>Happy</span></a></li>
+         <li class='last'><a href='energetic.html'><span>Energetic</span></a></li>
+         <li class='last'><a href='stressed.html'><span>Stressed</span></a></li>    
       </ul>
    </li>
-   <li class='active'><a href='about.html'><span>About</span></a></li>
+   <li class='active last'><a href='calendar.html'><span>Calendar</span></a></li>
    <li class='active last'><a href='userinformation.html'><span>User Information</span></a></li>
+
 </ul>
 </div>
 
 <div id="content">
-   <img id="mypic" src="img/elichristman.png" width="750px" height="480px"/>
+
+   <iframe id="slideshow" width="750" height="480" src="http://www.cincopa.com/media-platform/iframe.aspx?fid=AIJAml7GkEAv" frameborder="0" allowfullscreen scrolling="no"></iframe>
 
    <h2 id="title"> HOW ARE YOU FEELING TODAY?</h2>
 
-   <button id="hungry" type="hungry.html"><a href="hungry.html">HUNGRY</a></button>
-   <button type= "energetic.html"><a href="energetic.html">ENERGETIC</a></button>
-   <button type="calm.html"><a href="calm.html">CALM</a></button> 		
-   <button type= "lazy.html"><a href="lazy.html">LAZY</a></button>
-  
+   <a href="happy.html"><button id="happy" type="button">HAPPY</button></a>
+   <a href="energetic.html"><button type= "button">ENERGETIC</button></a>
+   <a href="stressed.html"><button type="button">STRESSED</button></a>		
 </div>
 
 </body>

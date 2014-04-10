@@ -1,54 +1,9 @@
-p{font-family:arial;
-  font-size: 14px;
-  color:black;
-  width:525px;
-}
-
-h1{
-  font-family:arial;
-  font-size: 36px;
-  color:black; 
-  margin-top: 0px;
-  margin-bottom:0px;
-}
-
-#subtitle{
-  font-family:arial;
-  font-size: 22px;
-}
-
-button{font-family: arial; 
-	font-size: 16px; 
-	color:#ffffff;
-	background-color: #F45A55;
-	vertical-align: center; 
-  margin-top: 0px;
-  margin-bottom:0px;
-  position: relative;
-  top:-5px;
-}
-
 #content {
   background-color: white;
   width:1000px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#mypic {
-  margin-left:500px;
-  position:relative;
-  top:50px;
-}
-
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+  height:800px;
 }
 
 
@@ -333,5 +288,3 @@ button{font-family: arial;
   }
 }
 
-
-	
